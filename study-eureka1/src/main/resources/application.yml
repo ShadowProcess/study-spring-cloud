@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: study-eureka1
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false   #指定是否要注册到注册中心（注册中心不需要开启）
+    fetch-registry: false         #指定是否要从注册中心获取服务（注册中心不需要开启）
+    serviceUrl:
+      defaultZone: http://localhost:8762/eureka/,http://localhost:8763/eureka/
+
+###Eureka集群[两个Eureka互相注册]
+###当前EurekaService的ServerUrl 指向另外一个EurekaServer
+###两个Eureka会互相同步信息

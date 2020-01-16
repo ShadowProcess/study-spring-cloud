@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: product
+
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: STUDY-CONFIG
+      profile: dev
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Shell?characterEncoding=utf-8&useSSL=false
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  jpa:
+    show-sql: true
+
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+server:
+  port: 8082

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/order/order.iml" filepath="$PROJECT_DIR$/order/order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product/product.iml" filepath="$PROJECT_DIR$/product/product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-config/study-config.iml" filepath="$PROJECT_DIR$/study-config/study-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-elasticsearch/study-elasticsearch.iml" filepath="$PROJECT_DIR$/study-elasticsearch/study-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-eureka-client/study-eureka-client.iml" filepath="$PROJECT_DIR$/study-eureka-client/study-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-eureka1/study-eureka1.iml" filepath="$PROJECT_DIR$/study-eureka1/study-eureka1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-eureka2/study-eureka2.iml" filepath="$PROJECT_DIR$/study-eureka2/study-eureka2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-eureka3/study-eureka3.iml" filepath="$PROJECT_DIR$/study-eureka3/study-eureka3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-rabbitmq/study-rabbitmq.iml" filepath="$PROJECT_DIR$/study-rabbitmq/study-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/study-spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/study-spring-cloud.iml" />
+    </modules>
+  </component>
+</project>

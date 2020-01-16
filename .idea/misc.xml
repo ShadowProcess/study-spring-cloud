@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/study-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/study-client/pom.xml" />
+        <option value="$PROJECT_DIR$/study-eureka2/pom.xml" />
+        <option value="$PROJECT_DIR$/study-eureka1/pom.xml" />
+        <option value="$PROJECT_DIR$/study-eureka3/pom.xml" />
+        <option value="$PROJECT_DIR$/product/pom.xml" />
+        <option value="$PROJECT_DIR$/study-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/order/pom.xml" />
+        <option value="$PROJECT_DIR$/study-elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/study-eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/study-config/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

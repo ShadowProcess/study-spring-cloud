@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: study-config
+
+  #分布式配置
+  cloud:
+    config:
+      label: master  #分支
+      server:
+        git:
+          uri: https://github.com/ShadowProcess/spring-cloud-config
+          username: jiahangsocket@163.com
+          password: Yangyang..521
+          #配置文件在仓库中的目录
+          search-paths: studyconfig
+          # 可以配置云配置拉取到本地的路径
+          # basedir: /Users/admin/code/myproject/basedir
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/,http://localhost:8763/eureka/  #配置多个服务注册中心地址，挂掉一个也不怕
+
+#暴露接口 【该接口用来刷新配置文件，而不需要重新启动，使用的spring-cloud-bus插件】
+management:
+  endpoints:
+    web:
+      expose: "*"
+
+##想要刷新配置,使用浏览器访问 GET http://localhost:8080/actuator/bus-refresh  [也可以使用git的WebHooks功能]

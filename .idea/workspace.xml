@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f36e6cb0-940f-46f4-a47f-e03cd5655299" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WKAOqbs3Lm14T2jl8eLYqeKA5M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.44367817" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.order.repository" />
+      <recent name="com.example.product.service" />
+      <recent name="com.example.product.repository" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud\product\src\main\resources" />
+      <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud\study-config" />
+      <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud\bus" />
+      <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud\study-rabbitmq" />
+      <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud\product" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.order.dto" />
+      <recent name="com.example.order.dataobject" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud" />
+      <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud\order" />
+      <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud\order\src\main\resources\sql" />
+      <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud\study-client" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.order.service.impl" />
+      <recent name="com.example.product.service.impl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProductApplication">
+    <configuration name="MqSenderTest.send" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.order" />
+      <option name="MAIN_CLASS_NAME" value="com.example.order.MqSenderTest" />
+      <option name="METHOD_NAME" value="send" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MqSenderTest.send1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.order" />
+      <option name="MAIN_CLASS_NAME" value="com.example.order.MqSenderTest" />
+      <option name="METHOD_NAME" value="send1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MqSenderTest.send2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.order" />
+      <option name="MAIN_CLASS_NAME" value="com.example.order.MqSenderTest" />
+      <option name="METHOD_NAME" value="send2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MqSenderTest.send3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.order" />
+      <option name="MAIN_CLASS_NAME" value="com.example.order.MqSenderTest" />
+      <option name="METHOD_NAME" value="send3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="study-eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.client.ClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="study-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.config.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="study-elasticsearch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.elasticsearch.ElasticsearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="study-eureka1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eureka.Eureka1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="study-eureka2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eureka2.Eureka2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="study-eureka3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eureka3.Eureka3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.order.OrderApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8081" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.product.ProductApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8082" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.product.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="study-rabbitmq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.rabbitmq.RabbitmqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ClientApplication" />
+      <item itemvalue="Spring Boot.Eureka2Application" />
+      <item itemvalue="Spring Boot.Eureka3Application" />
+      <item itemvalue="Spring Boot.ProductApplication" />
+      <item itemvalue="Spring Boot.ProductApplication (1)" />
+      <item itemvalue="Spring Boot.RabbitmqApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.ElasticsearchApplication" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.Eureka1Application" />
+      <item itemvalue="JUnit.MqSenderTest.send" />
+      <item itemvalue="JUnit.MqSenderTest.send1" />
+      <item itemvalue="JUnit.MqSenderTest.send2" />
+      <item itemvalue="JUnit.MqSenderTest.send3" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MqSenderTest.send3" />
+        <item itemvalue="JUnit.MqSenderTest.send2" />
+        <item itemvalue="JUnit.MqSenderTest.send1" />
+        <item itemvalue="JUnit.MqSenderTest.send" />
+        <item itemvalue="Spring Boot.Eureka1Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.13257575" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f36e6cb0-940f-46f4-a47f-e03cd5655299" name="Default Changelist" comment="" />
+      <created>1578887883398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578887883398</updated>
+      <workItem from="1578887884601" duration="1447000" />
+      <workItem from="1578889382732" duration="8761000" />
+      <workItem from="1578909212435" duration="52000" />
+      <workItem from="1578909272569" duration="8813000" />
+      <workItem from="1578992028832" duration="9535000" />
+      <workItem from="1579004399480" duration="81000" />
+      <workItem from="1579004493051" duration="3119000" />
+      <workItem from="1579052526518" duration="26983000" />
+      <workItem from="1579092618262" duration="765000" />
+      <workItem from="1579137410462" duration="5322000" />
+      <workItem from="1579142842730" duration="463000" />
+      <workItem from="1579143319760" duration="23599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="179" key="#New_Docker_Connection" timestamp="1578889068029">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#New_Docker_Connection/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1578889068029" />
+    <state x="552" y="179" key="#Project_Structure" timestamp="1579142325175">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Project_Structure/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579142325175" />
+    <state x="552" y="179" key="#SQL_Dialects" timestamp="1579004020308">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#SQL_Dialects/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579004020308" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579075625789">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579075625789" />
+    <state x="688" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579157464103">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="688" y="323" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579157464103" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1579088984710">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579088984710" />
+    <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578889705489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1578889705489" />
+    <state x="806" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578909327733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="806" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1578909327733" />
+    <state x="588" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578902717986">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="588" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1578902717986" />
+    <state x="715" y="222" key="#xdebugger.evaluate" timestamp="1579058245696">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="222" key="#xdebugger.evaluate/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579058245696" />
+    <state width="447" height="466" key="DebuggerActiveHint" timestamp="1579057884348">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="447" height="466" key="DebuggerActiveHint/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579057884348" />
+    <state width="1602" height="305" key="GridCell.Tab.0.bottom" timestamp="1579175819010">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1602" height="305" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579175819010" />
+    <state width="1602" height="305" key="GridCell.Tab.0.center" timestamp="1579175819010">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1602" height="305" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579175819010" />
+    <state width="1602" height="305" key="GridCell.Tab.0.left" timestamp="1579175819010">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1602" height="305" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579175819010" />
+    <state width="1602" height="305" key="GridCell.Tab.0.right" timestamp="1579175819010">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1602" height="305" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579175819010" />
+    <state width="1602" height="305" key="GridCell.Tab.1.bottom" timestamp="1579175819010">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1602" height="305" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579175819010" />
+    <state width="1602" height="305" key="GridCell.Tab.1.center" timestamp="1579175819010">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1602" height="305" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579175819010" />
+    <state width="1602" height="305" key="GridCell.Tab.1.left" timestamp="1579175819010">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1602" height="305" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579175819010" />
+    <state width="1602" height="305" key="GridCell.Tab.1.right" timestamp="1579175819010">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1602" height="305" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579175819010" />
+    <state width="1596" height="633" key="GridCell.Tab.2.bottom" timestamp="1579058386180">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1596" height="633" key="GridCell.Tab.2.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579058386180" />
+    <state width="1596" height="633" key="GridCell.Tab.2.center" timestamp="1579058386180">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1596" height="633" key="GridCell.Tab.2.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579058386180" />
+    <state width="1596" height="633" key="GridCell.Tab.2.left" timestamp="1579058386180">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1596" height="633" key="GridCell.Tab.2.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579058386180" />
+    <state width="1596" height="633" key="GridCell.Tab.2.right" timestamp="1579058386180">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1596" height="633" key="GridCell.Tab.2.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579058386180" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1579143231894">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579143231894" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1579143335889">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579143335889" />
+    <state x="711" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579053123538">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="711" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579053123538" />
+    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1579167515380">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="253" width="647" height="534" key="find.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579167515380" />
+    <state x="334" y="222" key="new project wizard" timestamp="1579142763148">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="222" key="new project wizard/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579142763148" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1579146519713">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579146519713" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579162923202">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579162923202" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order/src/main/java/com/example/order/converter/OrderForm2OrderDtoConverter.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
