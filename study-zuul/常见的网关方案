@@ -16,3 +16,21 @@
     * 后置（Post）
     * 路由（Route）
     * 错误（Error）
+    
+    
+典型应用场景：
+
+前置(pre)
+*限流
+*鉴权
+*参数校验调整    
+
+后置(Post)
+*统计
+*日志
+
+##多个Zuul节点注册到EurekaServer上，高可用
+
+Nginx和Zuul “混搭”
+
+

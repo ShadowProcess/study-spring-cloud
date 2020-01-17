@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: study-zuul
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: STUDY-CONFIG
+      profile: dev
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 9000
+
+
+zuul:
+  routes:
+    aaaaaa:
+      path: /myProduct/**
+      serviceId: product
+      sensitiveHeaders:  #这个值写空，就可以获取前端的Cookie了，Zuul默认不能获取Cookie
+  ignored-patterns:
+    - /**/product/listForOrder
