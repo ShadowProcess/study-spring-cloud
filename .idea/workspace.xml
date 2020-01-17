@@ -2,7 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f36e6cb0-940f-46f4-a47f-e03cd5655299" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_2_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_2_2_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_2_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_2_2_2_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_2_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_2_2_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_2_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_2_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_2_2_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_2_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_2_2_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_2_2_2_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_2_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_2_2_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_2_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_2_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_2_2_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-zuul/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-zuul/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-zuul/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/ZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-zuul/常见的网关方案" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/impl/OrderServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,11 +117,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud\study-zuul" />
       <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud\product\src\main\resources" />
       <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud\study-config" />
       <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud\bus" />
       <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud\study-rabbitmq" />
-      <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud\product" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.order.dto" />
@@ -253,7 +290,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="study-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.zuul.ZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="JUnit.MqSenderTest.send" />
+      <item itemvalue="JUnit.MqSenderTest.send1" />
+      <item itemvalue="JUnit.MqSenderTest.send2" />
+      <item itemvalue="JUnit.MqSenderTest.send3" />
       <item itemvalue="Spring Boot.ClientApplication" />
       <item itemvalue="Spring Boot.Eureka2Application" />
       <item itemvalue="Spring Boot.Eureka3Application" />
@@ -264,18 +312,15 @@
       <item itemvalue="Spring Boot.ElasticsearchApplication" />
       <item itemvalue="Spring Boot.ConfigApplication" />
       <item itemvalue="Spring Boot.Eureka1Application" />
-      <item itemvalue="JUnit.MqSenderTest.send" />
-      <item itemvalue="JUnit.MqSenderTest.send1" />
-      <item itemvalue="JUnit.MqSenderTest.send2" />
-      <item itemvalue="JUnit.MqSenderTest.send3" />
+      <item itemvalue="Spring Boot.ZuulApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Eureka1Application" />
         <item itemvalue="JUnit.MqSenderTest.send3" />
         <item itemvalue="JUnit.MqSenderTest.send2" />
         <item itemvalue="JUnit.MqSenderTest.send1" />
         <item itemvalue="JUnit.MqSenderTest.send" />
-        <item itemvalue="Spring Boot.Eureka1Application" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +343,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -328,17 +373,35 @@
       <workItem from="1579092618262" duration="765000" />
       <workItem from="1579137410462" duration="5322000" />
       <workItem from="1579142842730" duration="463000" />
-      <workItem from="1579143319760" duration="23870000" />
+      <workItem from="1579143319760" duration="25202000" />
+      <workItem from="1579223814379" duration="3223000" />
     </task>
+    <task id="LOCAL-00001" summary="升级fastjson">
+      <created>1579178402101</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579178402101</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="升级fastjson" />
+    <option name="LAST_COMMIT_MESSAGE" value="升级fastjson" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="179" key="#Inspections" timestamp="1579226412970">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Inspections/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579226412970" />
     <state x="552" y="179" key="#New_Docker_Connection" timestamp="1578889068029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -355,10 +418,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579075625789" />
-    <state x="688" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579157464103">
+    <state x="688" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579223959546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="688" y="323" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579157464103" />
+    <state x="688" y="323" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579223959546" />
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1579088984710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -379,42 +442,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="222" key="#xdebugger.evaluate/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579058245696" />
+    <state x="474" y="110" key="CommitChangelistDialog2" timestamp="1579178401630">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="474" y="110" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579178401630" />
     <state width="447" height="466" key="DebuggerActiveHint" timestamp="1579057884348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="447" height="466" key="DebuggerActiveHint/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579057884348" />
-    <state width="1602" height="305" key="GridCell.Tab.0.bottom" timestamp="1579175819010">
+    <state width="1602" height="269" key="GridCell.Tab.0.bottom" timestamp="1579226363890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1602" height="305" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579175819010" />
-    <state width="1602" height="305" key="GridCell.Tab.0.center" timestamp="1579175819010">
+    <state width="1602" height="269" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579226363890" />
+    <state width="1602" height="269" key="GridCell.Tab.0.center" timestamp="1579226363889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1602" height="305" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579175819010" />
-    <state width="1602" height="305" key="GridCell.Tab.0.left" timestamp="1579175819010">
+    <state width="1602" height="269" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579226363889" />
+    <state width="1602" height="269" key="GridCell.Tab.0.left" timestamp="1579226363889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1602" height="305" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579175819010" />
-    <state width="1602" height="305" key="GridCell.Tab.0.right" timestamp="1579175819010">
+    <state width="1602" height="269" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579226363889" />
+    <state width="1602" height="269" key="GridCell.Tab.0.right" timestamp="1579226363889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1602" height="305" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579175819010" />
-    <state width="1602" height="305" key="GridCell.Tab.1.bottom" timestamp="1579175819010">
+    <state width="1602" height="269" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579226363889" />
+    <state width="1602" height="269" key="GridCell.Tab.1.bottom" timestamp="1579226363890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1602" height="305" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579175819010" />
-    <state width="1602" height="305" key="GridCell.Tab.1.center" timestamp="1579175819010">
+    <state width="1602" height="269" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579226363890" />
+    <state width="1602" height="269" key="GridCell.Tab.1.center" timestamp="1579226363890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1602" height="305" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579175819010" />
-    <state width="1602" height="305" key="GridCell.Tab.1.left" timestamp="1579175819010">
+    <state width="1602" height="269" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579226363890" />
+    <state width="1602" height="269" key="GridCell.Tab.1.left" timestamp="1579226363890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1602" height="305" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579175819010" />
-    <state width="1602" height="305" key="GridCell.Tab.1.right" timestamp="1579175819010">
+    <state width="1602" height="269" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579226363890" />
+    <state width="1602" height="269" key="GridCell.Tab.1.right" timestamp="1579226363890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1602" height="305" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579175819010" />
+    <state width="1602" height="269" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579226363890" />
     <state width="1596" height="633" key="GridCell.Tab.2.bottom" timestamp="1579058386180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -435,10 +502,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579143231894" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1579143335889">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579178405757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579143335889" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579178405757" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1579223820322">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579223820322" />
     <state x="711" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579053123538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -447,18 +518,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="253" width="647" height="534" key="find.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579167515380" />
-    <state x="334" y="222" key="new project wizard" timestamp="1579142763148">
+    <state x="334" y="222" key="new project wizard" timestamp="1579224639887">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="222" key="new project wizard/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579142763148" />
+    <state x="334" y="222" key="new project wizard/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579224639887" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1579146519713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579146519713" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579162923202">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579224090842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579162923202" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579224090842" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

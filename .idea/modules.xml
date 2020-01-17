@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/study-eureka3/study-eureka3.iml" filepath="$PROJECT_DIR$/study-eureka3/study-eureka3.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-rabbitmq/study-rabbitmq.iml" filepath="$PROJECT_DIR$/study-rabbitmq/study-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/study-spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/study-spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-zuul/study-zuul.iml" filepath="$PROJECT_DIR$/study-zuul/study-zuul.iml" />
     </modules>
   </component>
 </project>

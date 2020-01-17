@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.2.2.BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-hystrix/2.2.2.BUILD-SNAPSHOT/spring-cloud-starter-netflix-hystrix-2.2.2.BUILD-20200116.230729-255.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-hystrix/2.2.2.BUILD-SNAPSHOT/spring-cloud-starter-netflix-hystrix-2.2.2.BUILD-20200116.230729-255-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-hystrix/2.2.2.BUILD-SNAPSHOT/spring-cloud-starter-netflix-hystrix-2.2.2.BUILD-20200116.230729-255-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -16,6 +16,7 @@
         <module name="study-rabbitmq" />
         <module name="study-elasticsearch" />
         <module name="study-config" />
+        <module name="study-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,6 +31,7 @@
       <module name="study-eureka2" target="1.8" />
       <module name="study-eureka3" target="1.8" />
       <module name="study-rabbitmq" target="1.8" />
+      <module name="study-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -45,6 +47,7 @@
       <module name="study-eureka2" options="-parameters" />
       <module name="study-eureka3" options="-parameters" />
       <module name="study-rabbitmq" options="-parameters" />
+      <module name="study-zuul" options="-parameters" />
     </option>
   </component>
 </project>

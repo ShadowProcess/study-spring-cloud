@@ -30,7 +30,7 @@ public class OrderServiceImpl implements OrderService {
     @Resource //byName注入
     private OrderMasterRepository orderMasterRepository;
 
-    @Autowired
+    @Autowired //byType注入
     private ProductClient productClient;
 
     /**
@@ -50,6 +50,18 @@ public class OrderServiceImpl implements OrderService {
                 .map(OrderDetail::getProductId)
                 .collect(Collectors.toList());
         List<ProductInfo> productInfoList = productClient.listForOrder(productIdList);
+
+        //读redis
+        //减库存并将新值重新设置进redis
+
+        //订单入库异常，手动回滚redis
+
+        /**
+         * 异步扣库存分析
+         * 1.库存在Redis中保存
+         * 2.收到请求Redis判断是否库存充足，减掉Redis中库存
+         * 3.订单服务创建订单写入数据库，并发送消息
+         */
 
 
         //TODO 计算总价

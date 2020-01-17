@@ -1,0 +1,18 @@
+##常用的网关方案
+
+* Nginx(负载均衡，反向代理) + Lua
+
+* Kong(它是基于Nginx+Lua)
+
+* Tyk 开源轻量级(支持配额和认证),全Restful-API
+
+* Spring Cloud Zuul
+
+################Zuul的知识##############################
+路由+过滤器 = Zuul
+
+核心是一系列的过滤器
+    * 前置（Pre）
+    * 后置（Post）
+    * 路由（Route）
+    * 错误（Error）

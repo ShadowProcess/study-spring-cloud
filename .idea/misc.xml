@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/study-elasticsearch/pom.xml" />
         <option value="$PROJECT_DIR$/study-eureka-client/pom.xml" />
         <option value="$PROJECT_DIR$/study-config/pom.xml" />
+        <option value="$PROJECT_DIR$/study-zuul/pom.xml" />
       </list>
     </option>
   </component>
