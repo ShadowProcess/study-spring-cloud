@@ -12,15 +12,16 @@ import static org.springframework.cloud.netflix.zuul.filters.support.FilterConst
 
 /**
  * 模拟Zuul的权限校验
+ * 区分卖家和卖家
  */
-public class TokenFilter extends ZuulFilter {
+public class AuthFilter extends ZuulFilter {
     /**
      * filterType
-     *  返回一个代表过滤器的类型，在Zuul中定义了四种不同生命周期的过滤类型
-     *  pre:路由之前
-     *  routing:路由之时
-     *  post:路由之后
-     *  error:发送错误调用
+     * 返回一个代表过滤器的类型，在Zuul中定义了四种不同生命周期的过滤类型
+     * pre:路由之前
+     * routing:路由之时
+     * post:路由之后
+     * error:发送错误调用
      */
     @Override
     public String filterType() {
@@ -29,6 +30,7 @@ public class TokenFilter extends ZuulFilter {
 
     /**
      * 值越小越优先
+     *
      * @return
      */
     @Override
@@ -43,6 +45,7 @@ public class TokenFilter extends ZuulFilter {
 
     /**
      * 逻辑
+     *
      * @return
      * @throws ZuulException
      */
@@ -51,13 +54,13 @@ public class TokenFilter extends ZuulFilter {
         RequestContext requestContext = RequestContext.getCurrentContext();
         HttpServletRequest request = requestContext.getRequest();
 
-        //这里从url参数里获取，也可以从cookie，Header里边获取
-        String token = request.getParameter("token");
+           /*
+           /order/create 只能买家访问
+           /order/finish 只能卖家访问
+           /product/list 都可以访问
+           */
 
-        if (StringUtils.isEmpty(token)) {
-            //requestContext.setSendZuulResponse(false); //表示不通过
-            //requestContext.setResponseStatusCode(HttpStatus.UNAUTHORIZED.value());
-        }
+
         return null;
     }
 }

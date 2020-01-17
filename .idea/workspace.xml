@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f36e6cb0-940f-46f4-a47f-e03cd5655299" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Nginx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/ZuulConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/filter/AddResponseHeaderFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/filter/TokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-zuul/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/exception/RateLimitException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/filter/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/filter/RateLimitFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/example/user/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/ZuulApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/ZuulApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/filter/TokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/filter/TokenFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study-zuul/常见的网关方案" beforeDir="false" afterPath="$PROJECT_DIR$/study-zuul/常见的网关方案" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +63,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -94,6 +100,7 @@
       <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud\study-rabbitmq" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.zuul.filter" />
       <recent name="com.example.order.dto" />
       <recent name="com.example.order.dataobject" />
     </key>
@@ -260,6 +267,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="study-zuul" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.zuul.ZuulApplication" />
@@ -283,6 +297,7 @@
       <item itemvalue="Spring Boot.ConfigApplication" />
       <item itemvalue="Spring Boot.Eureka1Application" />
       <item itemvalue="Spring Boot.ZuulApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -344,7 +359,7 @@
       <workItem from="1579137410462" duration="5322000" />
       <workItem from="1579142842730" duration="463000" />
       <workItem from="1579143319760" duration="25202000" />
-      <workItem from="1579223814379" duration="5998000" />
+      <workItem from="1579223814379" duration="7552000" />
     </task>
     <task id="LOCAL-00001" summary="升级fastjson">
       <created>1579178402101</created>
@@ -360,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579227061389</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="zuul 实现权限限制">
+      <created>1579230066333</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579230066333</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,10 +392,22 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="升级fastjson" />
     <MESSAGE value="add zuul" />
-    <option name="LAST_COMMIT_MESSAGE" value="add zuul" />
+    <MESSAGE value="zuul 实现权限限制" />
+    <option name="LAST_COMMIT_MESSAGE" value="zuul 实现权限限制" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Inspections" timestamp="1579226412970">
@@ -400,10 +434,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="688" y="323" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579228887755" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1579229822463">
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1579230279883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579229822463" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579230279883" />
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578889705489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -420,46 +454,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="222" key="#xdebugger.evaluate/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579058245696" />
-    <state x="474" y="110" key="CommitChangelistDialog2" timestamp="1579227060862">
+    <state x="474" y="110" key="CommitChangelistDialog2" timestamp="1579230065916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="474" y="110" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579227060862" />
+    <state x="474" y="110" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579230065916" />
     <state width="447" height="466" key="DebuggerActiveHint" timestamp="1579057884348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="447" height="466" key="DebuggerActiveHint/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579057884348" />
-    <state width="788" height="269" key="GridCell.Tab.0.bottom" timestamp="1579227606453">
+    <state width="1602" height="269" key="GridCell.Tab.0.bottom" timestamp="1579230070533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="788" height="269" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579227606453" />
-    <state width="788" height="269" key="GridCell.Tab.0.center" timestamp="1579227606453">
+    <state width="1602" height="269" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579230070533" />
+    <state width="1602" height="269" key="GridCell.Tab.0.center" timestamp="1579230070533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="788" height="269" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579227606453" />
-    <state width="788" height="269" key="GridCell.Tab.0.left" timestamp="1579227606453">
+    <state width="1602" height="269" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579230070533" />
+    <state width="1602" height="269" key="GridCell.Tab.0.left" timestamp="1579230070532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="788" height="269" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579227606453" />
-    <state width="788" height="269" key="GridCell.Tab.0.right" timestamp="1579227606453">
+    <state width="1602" height="269" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579230070532" />
+    <state width="1602" height="269" key="GridCell.Tab.0.right" timestamp="1579230070533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="788" height="269" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579227606453" />
-    <state width="788" height="269" key="GridCell.Tab.1.bottom" timestamp="1579227606454">
+    <state width="1602" height="269" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579230070533" />
+    <state width="1602" height="269" key="GridCell.Tab.1.bottom" timestamp="1579230070533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="788" height="269" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579227606454" />
-    <state width="788" height="269" key="GridCell.Tab.1.center" timestamp="1579227606453">
+    <state width="1602" height="269" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579230070533" />
+    <state width="1602" height="269" key="GridCell.Tab.1.center" timestamp="1579230070533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="788" height="269" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579227606453" />
-    <state width="788" height="269" key="GridCell.Tab.1.left" timestamp="1579227606453">
+    <state width="1602" height="269" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579230070533" />
+    <state width="1602" height="269" key="GridCell.Tab.1.left" timestamp="1579230070533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="788" height="269" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579227606453" />
-    <state width="788" height="269" key="GridCell.Tab.1.right" timestamp="1579227606453">
+    <state width="1602" height="269" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579230070533" />
+    <state width="1602" height="269" key="GridCell.Tab.1.right" timestamp="1579230070533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="788" height="269" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579227606453" />
+    <state width="1602" height="269" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579230070533" />
     <state width="1596" height="633" key="GridCell.Tab.2.bottom" timestamp="1579058386180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -480,10 +514,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579143231894" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579227063920">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579230067696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579227063920" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579230067696" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1579223820322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -496,10 +530,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="253" width="647" height="534" key="find.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579167515380" />
-    <state x="334" y="222" key="new project wizard" timestamp="1579224639887">
+    <state x="334" y="222" key="new project wizard" timestamp="1579231331767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="222" key="new project wizard/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579224639887" />
+    <state x="334" y="222" key="new project wizard/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579231331767" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1579146519713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

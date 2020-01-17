@@ -29,8 +29,19 @@
 *统计
 *日志
 
-##多个Zuul节点注册到EurekaServer上，高可用
+###Zuul:限流
+*时机：请求被转发之前调用
+*请看RateLimitFilter这个类的实现
 
+###Zuul权限校验
+* /order/create 只能买家访问
+* /order/finish 只能卖家访问
+* /product/list 都可以访问 
+
+
+
+
+##多个Zuul节点注册到EurekaServer上，高可用
 Nginx和Zuul “混搭”
 
 
