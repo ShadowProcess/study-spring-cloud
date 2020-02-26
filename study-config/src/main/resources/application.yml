@@ -10,7 +10,7 @@ spring:
         git:
           uri: https://github.com/ShadowProcess/spring-cloud-config
           username: jiahangsocket@163.com
-          password: Yangyang..521
+          password: 12345678
           #配置文件在仓库中的目录
           search-paths: studyconfig
           # 可以配置云配置拉取到本地的路径

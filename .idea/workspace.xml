@@ -2,54 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f36e6cb0-940f-46f4-a47f-e03cd5655299" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/resources/sql/user_info.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/constant/CookieConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/constant/RedisConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/utils/CookieUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/example/user/constant/CookieConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/example/user/constant/RedisConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/example/user/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/example/user/enums/ResultEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/example/user/enums/RoleEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/example/user/utils/CookieUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/example/user/utils/KeyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/example/user/utils/ResultVoUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/example/user/vo/ResultVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/resources/sql/user_info.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_2_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_2_2_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_2_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_2_2_2_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_2_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_2_2_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_2_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_2_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_2_2_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_2_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_2_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_2_2_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_2_2_2_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_2_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_2_2_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_2_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_2_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_2_2_BUILD_SNAPSHOT.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/enums/ResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/enums/ResultEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/repository/OrderDetailRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/repository/OrderDetailRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-zuul/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/filter/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/filter/AuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/filter/RateLimitFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/filter/RateLimitFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/filter/TokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/filter/TokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-zuul/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/study-zuul/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/example/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/example/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/example/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/example/user/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -410,7 +363,7 @@
       <workItem from="1582279675468" duration="426000" />
       <workItem from="1582280125427" duration="498000" />
       <workItem from="1582521649698" duration="10000" />
-      <workItem from="1582695856268" duration="1155000" />
+      <workItem from="1582695856268" duration="1677000" />
     </task>
     <task id="LOCAL-00001" summary="升级fastjson">
       <created>1579178402101</created>
@@ -447,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580905956404</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="zuul 管理权限">
+      <created>1582697283725</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582697283725</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,7 +436,8 @@
     <MESSAGE value="zuul 实现权限限制" />
     <MESSAGE value="zuul 限流,权限验证" />
     <MESSAGE value="bootstrap配置可以干嘛" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap配置可以干嘛" />
+    <MESSAGE value="zuul 管理权限" />
+    <option name="LAST_COMMIT_MESSAGE" value="zuul 管理权限" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Inspections" timestamp="1579226412970">
@@ -525,11 +486,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="222" key="#xdebugger.evaluate/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579058245696" />
-    <state x="379" y="5" key="CommitChangelistDialog2" timestamp="1580905955850">
+    <state x="0" y="5" key="CommitChangelistDialog2" timestamp="1582697283118">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="474" y="110" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579231445545" />
-    <state x="379" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580905955850" />
+    <state x="0" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582697283118" />
     <state width="447" height="466" key="DebuggerActiveHint" timestamp="1579057884348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -598,11 +559,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579143231894" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1580905960711">
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1582697520621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579231452128" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580905960711" />
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582697520621" />
     <state x="512" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1582521651010">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
