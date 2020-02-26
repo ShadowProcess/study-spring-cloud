@@ -12,7 +12,7 @@ import static org.springframework.cloud.netflix.zuul.filters.support.FilterConst
 /**
  * 模拟Zuul限流
  */
-@Component
+//@Component
 public class RateLimitFilter extends ZuulFilter {
 
     //令牌桶

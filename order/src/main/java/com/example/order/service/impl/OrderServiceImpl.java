@@ -8,6 +8,8 @@ import com.example.order.dto.CartDto;
 import com.example.order.dto.OrderDto;
 import com.example.order.enums.OrderStatus;
 import com.example.order.enums.PayStatus;
+import com.example.order.enums.ResultEnum;
+import com.example.order.exception.OrderException;
 import com.example.order.repository.OrderDetailRepository;
 import com.example.order.repository.OrderMasterRepository;
 import com.example.order.service.OrderService;
@@ -15,11 +17,14 @@ import com.example.order.utils.KeyUtil;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
 
 import javax.annotation.Resource;
+import javax.transaction.Transactional;
 import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -41,6 +46,7 @@ public class OrderServiceImpl implements OrderService {
      * 作用就是把两个对象中相同字段进行赋值。不一定是相同对象，只要两个对象中有相同的成员变量就可以赋值。
      */
     @Override
+    @Transactional
     public OrderDto create(OrderDto orderDto) {
         String orderId = KeyUtil.genUniqueKey();
 
@@ -103,6 +109,38 @@ public class OrderServiceImpl implements OrderService {
         orderMaster.setCreateTime(new Date());
         orderMaster.setUpdateTime(new Date());
         orderMasterRepository.save(orderMaster);
+        return orderDto;
+    }
+
+    @Override
+    @Transactional
+    public OrderDto finish(String orderId) {
+        //1.先查询订单
+        Optional<OrderMaster> orderMasterOptional = orderMasterRepository.findById(orderId);
+        if (!orderMasterOptional.isPresent()) {
+            throw  new OrderException(ResultEnum.ORDER_NOT_EXIST);
+        }
+
+        //2.判断订单状态
+        OrderMaster orderMaster = orderMasterOptional.get();
+        if (OrderStatus.NEW.getCode() != orderMaster.getOrderStatus()) {
+            throw new OrderException(ResultEnum.ORDER_STATUS_ERROR);
+        }
+
+        //3.修改订单状态为完结
+        orderMaster.setOrderStatus(OrderStatus.FINISHED.getCode());
+        orderMasterRepository.save(orderMaster);
+
+        //查询订单详情
+        List<OrderDetail> orderDetailList = orderDetailRepository.findByOrderId(orderId);
+        if (CollectionUtils.isEmpty(orderDetailList)){
+            throw new OrderException(ResultEnum.ORDER_DETAIL_NOT_EXIST);
+        }
+
+        OrderDto orderDto = new OrderDto();
+        BeanUtils.copyProperties(orderMaster,orderDto);
+        orderDto.setOrderDetailList(orderDetailList);
+
         return orderDto;
     }
 }

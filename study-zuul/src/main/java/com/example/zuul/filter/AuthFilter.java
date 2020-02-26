@@ -1,11 +1,17 @@
 package com.example.zuul.filter;
 
+import com.example.zuul.constant.RedisConstant;
+import com.example.zuul.utils.CookieUtil;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
+import jdk.nashorn.internal.objects.annotations.Setter;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.http.HttpStatus;
 import org.springframework.util.StringUtils;
 
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 
 import static org.springframework.cloud.netflix.zuul.filters.support.FilterConstants.PRE_DECORATION_FILTER_ORDER;
@@ -15,6 +21,11 @@ import static org.springframework.cloud.netflix.zuul.filters.support.FilterConst
  * 区分卖家和卖家
  */
 public class AuthFilter extends ZuulFilter {
+
+
+    @Autowired
+    private StringRedisTemplate stringRedisTemplate;
+
     /**
      * filterType
      * 返回一个代表过滤器的类型，在Zuul中定义了四种不同生命周期的过滤类型
@@ -55,10 +66,29 @@ public class AuthFilter extends ZuulFilter {
         HttpServletRequest request = requestContext.getRequest();
 
            /*
-           /order/create 只能买家访问
-           /order/finish 只能卖家访问
+           /order/create 只能买家访问（cookie里有openid）                      【GET login/buyer】
+           /order/finish 只能卖家访问（cookie里有token，并且对应的redis中值）      【GET login/seller】
            /product/list 都可以访问
            */
+         if ("/order/create".equals(request.getRequestURI())) {
+             Cookie cookie = CookieUtil.get(request, "openid");
+             if (cookie == null || StringUtils.isEmpty(cookie.getValue())) {
+                 requestContext.setSendZuulResponse(false);
+                 requestContext.setResponseStatusCode(HttpStatus.UNAUTHORIZED.value());
+             }
+         }
+
+         if ("/order/finish".equals(request.getRequestURI())){
+             Cookie cookie = CookieUtil.get(request, "token");
+             if (cookie == null
+                     || StringUtils.isEmpty(cookie.getValue())
+                     || StringUtils.isEmpty(stringRedisTemplate.opsForValue().get(String.format(RedisConstant.TOKEN_TEMPLATE,cookie.getValue())))){
+
+                 requestContext.setSendZuulResponse(false);
+                 requestContext.setResponseStatusCode(HttpStatus.UNAUTHORIZED.value());
+             }
+         }
+
 
 
         return null;

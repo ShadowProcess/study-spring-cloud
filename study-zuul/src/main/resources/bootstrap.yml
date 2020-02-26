@@ -18,6 +18,8 @@ server:
 
 
 zuul:
+  # 全部服务忽略敏感头（全部服务都可以传递cookie）
+  sensitive-headers:
   routes:
     aaaaaa:
       path: /myProduct/**

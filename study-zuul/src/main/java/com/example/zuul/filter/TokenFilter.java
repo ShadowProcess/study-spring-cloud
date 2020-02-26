@@ -9,6 +9,7 @@ import org.springframework.util.StringUtils;
 import javax.servlet.http.HttpServletRequest;
 
 import static org.springframework.cloud.netflix.zuul.filters.support.FilterConstants.PRE_DECORATION_FILTER_ORDER;
+import static org.springframework.cloud.netflix.zuul.filters.support.FilterConstants.PRE_TYPE;
 
 /**
  * 模拟Zuul的权限校验
@@ -24,7 +25,7 @@ public class TokenFilter extends ZuulFilter {
      */
     @Override
     public String filterType() {
-        return "pre";
+        return PRE_TYPE;
     }
 
     /**
@@ -55,8 +56,8 @@ public class TokenFilter extends ZuulFilter {
         String token = request.getParameter("token");
 
         if (StringUtils.isEmpty(token)) {
-            //requestContext.setSendZuulResponse(false); //表示不通过
-            //requestContext.setResponseStatusCode(HttpStatus.UNAUTHORIZED.value());
+            requestContext.setSendZuulResponse(false); //表示不通过
+            requestContext.setResponseStatusCode(HttpStatus.UNAUTHORIZED.value()); //权限不足 401
         }
         return null;
     }

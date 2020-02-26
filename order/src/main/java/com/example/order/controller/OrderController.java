@@ -8,12 +8,14 @@ import com.example.order.from.OrderFrom;
 import com.example.order.service.OrderService;
 import com.example.order.utils.ResultVoUtil;
 import com.example.order.vo.ResultVo;
+import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.CollectionUtils;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
@@ -25,7 +27,7 @@ import java.util.Map;
 @Slf4j
 public class OrderController {
 
-    @Autowired
+    @Setter(onMethod = @__(@Autowired))
     private OrderService orderService;
 
     /**
@@ -57,4 +59,15 @@ public class OrderController {
         map.put("orderId",result.getOrderId());
         return ResultVoUtil.success(map);
     }
+
+    /**
+     * 完结订单
+     * @param orderId
+     * @return
+     */
+    @PostMapping("/finish")
+    public ResultVo<OrderDto> finish(@RequestParam("orderId") String orderId){
+        return ResultVoUtil.success(orderService.finish(orderId));
+    }
+
 }
