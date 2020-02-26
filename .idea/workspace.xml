@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f36e6cb0-940f-46f4-a47f-e03cd5655299" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/config/CrossConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/filter/AuthSellerFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/example/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/example/product/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/filter/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/filter/AuthFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,10 +94,10 @@
       <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud\study-rabbitmq" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.zuul.filter" />
       <recent name="com.example.zuul.utils" />
       <recent name="com.example.user.enums" />
       <recent name="com.example.user.vo" />
-      <recent name="com.example.zuul.filter" />
       <recent name="com.example.order.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -363,7 +367,7 @@
       <workItem from="1582279675468" duration="426000" />
       <workItem from="1582280125427" duration="498000" />
       <workItem from="1582521649698" duration="10000" />
-      <workItem from="1582695856268" duration="1677000" />
+      <workItem from="1582695856268" duration="3843000" />
     </task>
     <task id="LOCAL-00001" summary="升级fastjson">
       <created>1579178402101</created>
@@ -407,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582697283725</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="cloud-config配置文件 密码隐藏">
+      <created>1582697594748</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582697594748</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,7 +448,8 @@
     <MESSAGE value="zuul 限流,权限验证" />
     <MESSAGE value="bootstrap配置可以干嘛" />
     <MESSAGE value="zuul 管理权限" />
-    <option name="LAST_COMMIT_MESSAGE" value="zuul 管理权限" />
+    <MESSAGE value="cloud-config配置文件 密码隐藏" />
+    <option name="LAST_COMMIT_MESSAGE" value="cloud-config配置文件 密码隐藏" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Inspections" timestamp="1579226412970">
@@ -486,11 +498,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="222" key="#xdebugger.evaluate/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579058245696" />
-    <state x="0" y="5" key="CommitChangelistDialog2" timestamp="1582697283118">
+    <state x="0" y="5" key="CommitChangelistDialog2" timestamp="1582697594351">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="474" y="110" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579231445545" />
-    <state x="0" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582697283118" />
+    <state x="0" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582697594351" />
     <state width="447" height="466" key="DebuggerActiveHint" timestamp="1579057884348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -559,11 +571,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579143231894" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1582697520621">
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1582697598559">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579231452128" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582697520621" />
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582697598559" />
     <state x="512" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1582521651010">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

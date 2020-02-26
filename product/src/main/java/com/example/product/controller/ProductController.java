@@ -37,6 +37,7 @@ public class ProductController {
      * 4.构造数据
      */
     @GetMapping("/list")
+    @CrossOrigin(allowCredentials = "true")  //因为Ajax有同源策略，所以后台要解决跨域问题   [allowCredentials 表示允许cookie跨域]
     public ResultVo<ProductVo> List(){
         //1.查询所有在架商品
         List<ProductInfo> productInfoList = productService.findUpAll();

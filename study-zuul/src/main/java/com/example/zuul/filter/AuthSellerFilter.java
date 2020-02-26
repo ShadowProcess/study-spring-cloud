@@ -5,7 +5,6 @@ import com.example.zuul.utils.CookieUtil;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
-import jdk.nashorn.internal.objects.annotations.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.http.HttpStatus;
@@ -20,7 +19,7 @@ import static org.springframework.cloud.netflix.zuul.filters.support.FilterConst
  * 模拟Zuul的权限校验
  * 区分卖家和卖家
  */
-public class AuthFilter extends ZuulFilter {
+public class AuthSellerFilter extends ZuulFilter {
 
 
     @Autowired
@@ -54,7 +53,7 @@ public class AuthFilter extends ZuulFilter {
         RequestContext requestContext = RequestContext.getCurrentContext();
         HttpServletRequest request = requestContext.getRequest();
 
-        if ("/order/order/create".equals(request.getRequestURI())) {
+        if ("/order/order/finish".equals(request.getRequestURI())) {
             return true;
         }
 
@@ -72,39 +71,18 @@ public class AuthFilter extends ZuulFilter {
         RequestContext requestContext = RequestContext.getCurrentContext();
         HttpServletRequest request = requestContext.getRequest();
 
-        /*
-          /order/create 只能买家访问（cookie里有openid）     【GET login/buyer】
-        */
+           /*
+           /order/finish 只能卖家访问（cookie里有token,并且对应redis中的值）   【GET login/seller】
+           */
+
         Cookie cookie = CookieUtil.get(request, "token");
-        if (cookie == null || StringUtils.isEmpty(cookie.getValue())){
+        if (cookie == null
+                || StringUtils.isEmpty(cookie.getValue())
+                || StringUtils.isEmpty(stringRedisTemplate.opsForValue().get(String.format(RedisConstant.TOKEN_TEMPLATE, cookie.getValue())))) {
 
             requestContext.setSendZuulResponse(false);
             requestContext.setResponseStatusCode(HttpStatus.UNAUTHORIZED.value());
         }
-
-           /*
-           /order/create 只能买家访问（cookie里有openid）                      【GET login/buyer】
-           /order/finish 只能卖家访问（cookie里有token，并且对应的redis中值）      【GET login/seller】
-           /product/list 都可以访问
-           */
-        // if ("/order/order/create".equals(request.getRequestURI())) {
-        //     Cookie cookie = CookieUtil.get(request, "openid");
-        //     if (cookie == null || StringUtils.isEmpty(cookie.getValue())) {
-        //         requestContext.setSendZuulResponse(false);
-        //         requestContext.setResponseStatusCode(HttpStatus.UNAUTHORIZED.value());
-        //     }
-        // }
-//
-        // if ("/order/order/finish".equals(request.getRequestURI())){
-        //     Cookie cookie = CookieUtil.get(request, "token");
-        //     if (cookie == null
-        //             || StringUtils.isEmpty(cookie.getValue())
-        //             || StringUtils.isEmpty(stringRedisTemplate.opsForValue().get(String.format(RedisConstant.TOKEN_TEMPLATE,cookie.getValue())))){
-//
-        //         requestContext.setSendZuulResponse(false);
-        //         requestContext.setResponseStatusCode(HttpStatus.UNAUTHORIZED.value());
-        //     }
-        // }
 
         return null;
     }
