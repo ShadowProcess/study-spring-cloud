@@ -79,6 +79,12 @@ public class ProductController {
      */
     @PostMapping("/listForOrder")
     public List<ProductInfo> listForOrder(@RequestBody List<String> productIdList){
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         //注意：@RequestBody 只要使用这个注解，就需要用Post
         return productService.findList(productIdList);
     }

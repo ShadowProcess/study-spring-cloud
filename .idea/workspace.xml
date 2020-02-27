@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f36e6cb0-940f-46f4-a47f-e03cd5655299" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/config/CrossConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/filter/AuthSellerFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/controller/HystrixController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/OrderApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/src/main/java/com/example/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/example/product/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/filter/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/filter/AuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -367,7 +369,10 @@
       <workItem from="1582279675468" duration="426000" />
       <workItem from="1582280125427" duration="498000" />
       <workItem from="1582521649698" duration="10000" />
-      <workItem from="1582695856268" duration="3843000" />
+      <workItem from="1582695856268" duration="4457000" />
+      <workItem from="1582712703642" duration="8000" />
+      <workItem from="1582786356520" duration="5045000" />
+      <workItem from="1582793023807" duration="2320000" />
     </task>
     <task id="LOCAL-00001" summary="升级fastjson">
       <created>1579178402101</created>
@@ -418,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582697594748</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="zuul [网关中配置跨域问题]">
+      <created>1582699900322</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582699900322</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +461,8 @@
     <MESSAGE value="bootstrap配置可以干嘛" />
     <MESSAGE value="zuul 管理权限" />
     <MESSAGE value="cloud-config配置文件 密码隐藏" />
-    <option name="LAST_COMMIT_MESSAGE" value="cloud-config配置文件 密码隐藏" />
+    <MESSAGE value="zuul [网关中配置跨域问题]" />
+    <option name="LAST_COMMIT_MESSAGE" value="zuul [网关中配置跨域问题]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Inspections" timestamp="1579226412970">
@@ -498,11 +511,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="222" key="#xdebugger.evaluate/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579058245696" />
-    <state x="0" y="5" key="CommitChangelistDialog2" timestamp="1582697594351">
+    <state x="0" y="5" key="CommitChangelistDialog2" timestamp="1582699899903">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="474" y="110" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579231445545" />
-    <state x="0" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582697594351" />
+    <state x="0" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582699899903" />
     <state width="447" height="466" key="DebuggerActiveHint" timestamp="1579057884348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -571,16 +584,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579143231894" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1582697598559">
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1582699904379">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579231452128" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582697598559" />
-    <state x="512" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1582521651010">
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582699904379" />
+    <state x="512" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1582793024087">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579223820322" />
-    <state x="512" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582521651010" />
+    <state x="512" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582793024087" />
     <state x="711" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579233410797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
