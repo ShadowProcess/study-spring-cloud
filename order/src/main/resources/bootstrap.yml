@@ -32,4 +32,28 @@ spring:
     username: guest
     password: guest
 
+  zipkin:
+    base-url: http://localhost:9411/  #你自己搭建的zipkin服务地址
+  sleuth:
+    sampler:
+      percenttage: 1  # 1就是100%
+
+#熔断配置 超时  [熔断器配置]
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 1000
+    getProductInfoList:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000
+feign:
+  hystrix:
+    enabled: true
+
+
 

@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f36e6cb0-940f-46f4-a47f-e03cd5655299" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/controller/HystrixController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-config/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-eureka1/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-eureka1/build.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/example/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/example/product/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/example/order/client/ProductClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/example/order/client/ProductClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +75,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/study-eureka1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.44367817" />
@@ -103,11 +105,11 @@
       <recent name="com.example.order.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud\study-eureka1" />
       <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud\study-zuul\src\main\java\com\example\zuul" />
       <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud\user\src\main\java\com\example\user" />
       <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud\user\src\main\resources\sql" />
       <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud" />
-      <recent name="D:\DevelopmentSoftWare\ideaWebWorkSpace\study-spring-cloud\order" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.user.service.impl" />
@@ -122,23 +124,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderApplication">
-    <configuration name="MqSenderTest.send" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="order" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.order" />
-      <option name="MAIN_CLASS_NAME" value="com.example.order.MqSenderTest" />
-      <option name="METHOD_NAME" value="send" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Docker.study-eureka1/Dockerfile">
     <configuration name="MqSenderTest.send1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="order" />
       <extension name="coverage">
@@ -281,8 +267,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="study-eureka1/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="study-eureka1/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="JUnit.MqSenderTest.send" />
+      <item itemvalue="Docker.study-eureka1/Dockerfile" />
       <item itemvalue="JUnit.MqSenderTest.send1" />
       <item itemvalue="JUnit.MqSenderTest.send2" />
       <item itemvalue="JUnit.MqSenderTest.send3" />
@@ -301,11 +295,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.study-eureka1/Dockerfile" />
         <item itemvalue="Spring Boot.Eureka1Application" />
         <item itemvalue="JUnit.MqSenderTest.send3" />
         <item itemvalue="JUnit.MqSenderTest.send2" />
         <item itemvalue="JUnit.MqSenderTest.send1" />
-        <item itemvalue="JUnit.MqSenderTest.send" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +366,9 @@
       <workItem from="1582695856268" duration="4457000" />
       <workItem from="1582712703642" duration="8000" />
       <workItem from="1582786356520" duration="5045000" />
-      <workItem from="1582793023807" duration="2320000" />
+      <workItem from="1582793023807" duration="4074000" />
+      <workItem from="1582880055929" duration="4132000" />
+      <workItem from="1583133582314" duration="2114000" />
     </task>
     <task id="LOCAL-00001" summary="升级fastjson">
       <created>1579178402101</created>
@@ -430,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582699900322</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="hystrix 熔断单独使用">
+      <created>1582796039768</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582796039768</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +465,8 @@
     <MESSAGE value="zuul 管理权限" />
     <MESSAGE value="cloud-config配置文件 密码隐藏" />
     <MESSAGE value="zuul [网关中配置跨域问题]" />
-    <option name="LAST_COMMIT_MESSAGE" value="zuul [网关中配置跨域问题]" />
+    <MESSAGE value="hystrix 熔断单独使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="hystrix 熔断单独使用" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Inspections" timestamp="1579226412970">
@@ -489,11 +493,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="688" y="323" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579228887755" />
-    <state x="612" y="182" key="#com.intellij.ide.util.MemberChooser" timestamp="1582275386714">
+    <state x="612" y="182" key="#com.intellij.ide.util.MemberChooser" timestamp="1582796368063">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579233419002" />
-    <state x="612" y="182" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582275386714" />
+    <state x="612" y="182" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582796368063" />
     <state x="464" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1582279567832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -507,19 +511,27 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="588" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1578902717986" />
+    <state x="946" y="0" key="#study-eureka1/Dockerfile" timestamp="1582884217166">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="946" y="0" key="#study-eureka1/Dockerfile/0.0.1536.824@0.0.1536.824" timestamp="1582884217166" />
     <state x="715" y="222" key="#xdebugger.evaluate" timestamp="1579058245696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="222" key="#xdebugger.evaluate/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579058245696" />
-    <state x="0" y="5" key="CommitChangelistDialog2" timestamp="1582699899903">
+    <state x="0" y="5" key="CommitChangelistDialog2" timestamp="1582796039197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="474" y="110" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579231445545" />
-    <state x="0" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582699899903" />
+    <state x="0" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582796039197" />
     <state width="447" height="466" key="DebuggerActiveHint" timestamp="1579057884348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="447" height="466" key="DebuggerActiveHint/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579057884348" />
+    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1582880837983">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582880837983" />
     <state width="1221" height="306" key="GridCell.Tab.0.bottom" timestamp="1582279177679">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -584,16 +596,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579143231894" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1582699904379">
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1582796046338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579231452128" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582699904379" />
-    <state x="512" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1582793024087">
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582796046338" />
+    <state x="512" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1583133583265">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579223820322" />
-    <state x="512" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582793024087" />
+    <state x="512" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583133583265" />
     <state x="711" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579233410797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -611,11 +623,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579146519713" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1582697227954">
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1582796246677">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579224090842" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582697227954" />
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582796246677" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
