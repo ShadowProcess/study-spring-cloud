@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f36e6cb0-940f-46f4-a47f-e03cd5655299" name="Default Changelist" comment="收尾">
+      <change afterPath="$PROJECT_DIR$/study-rabbitmq/src/main/java/com/example/rabbitmq/sender/simulatedeadlock/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-rabbitmq/src/main/java/com/example/rabbitmq/sender/simulatedeadlock/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-rabbitmq/src/main/java/com/example/rabbitmq/sender/simulatedeadlock/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-rabbitmq/src/main/java/com/example/rabbitmq/sender/simulatedeadlock/TT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-rabbitmq/src/main/java/com/example/rabbitmq/sender/simulatedeadlock/TT2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-rabbitmq/src/main/java/com/example/rabbitmq/sender/simulatedeadlock/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-rabbitmq/src/main/resources/test.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-rabbitmq/src/main/java/com/example/rabbitmq/receiver/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-rabbitmq/src/main/java/com/example/rabbitmq/receiver/Receiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-rabbitmq/src/main/java/com/example/rabbitmq/sender/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-rabbitmq/src/main/java/com/example/rabbitmq/sender/Sender.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,50 +123,57 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.study-eureka1/Dockerfile">
-    <configuration name="MqSenderTest.send1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="order" />
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.rabbitmq.sender.simulatedeadlock.Demo" />
+      <module name="study-rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.order.*" />
+          <option name="PATTERN" value="com.example.rabbitmq.sender.simulatedeadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.order" />
-      <option name="MAIN_CLASS_NAME" value="com.example.order.MqSenderTest" />
-      <option name="METHOD_NAME" value="send1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MqSenderTest.send2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="order" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.rabbitmq.sender.simulatedeadlock.Main" />
+      <module name="study-rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.order.*" />
+          <option name="PATTERN" value="com.example.rabbitmq.sender.simulatedeadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.order" />
-      <option name="MAIN_CLASS_NAME" value="com.example.order.MqSenderTest" />
-      <option name="METHOD_NAME" value="send2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MqSenderTest.send3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="order" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.rabbitmq.sender.simulatedeadlock.Test" />
+      <module name="study-rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.order.*" />
+          <option name="PATTERN" value="com.example.rabbitmq.sender.simulatedeadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.order" />
-      <option name="MAIN_CLASS_NAME" value="com.example.order.MqSenderTest" />
-      <option name="METHOD_NAME" value="send3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TT2.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.rabbitmq.sender.simulatedeadlock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.rabbitmq.sender.simulatedeadlock" />
+      <option name="MAIN_CLASS_NAME" value="com.example.rabbitmq.sender.simulatedeadlock.TT2" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -184,19 +196,6 @@
     <configuration name="ElasticsearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="study-elasticsearch" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.elasticsearch.ElasticsearchApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Eureka1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="study-eureka1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.eureka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eureka.Eureka1Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -270,10 +269,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Demo" />
       <item itemvalue="Docker.study-eureka1/Dockerfile" />
-      <item itemvalue="JUnit.MqSenderTest.send1" />
-      <item itemvalue="JUnit.MqSenderTest.send2" />
-      <item itemvalue="JUnit.MqSenderTest.send3" />
+      <item itemvalue="JUnit.TT2.test" />
       <item itemvalue="Spring Boot.ClientApplication" />
       <item itemvalue="Spring Boot.Eureka2Application" />
       <item itemvalue="Spring Boot.Eureka3Application" />
@@ -285,15 +285,14 @@
       <item itemvalue="Spring Boot.ConfigApplication" />
       <item itemvalue="Spring Boot.ZuulApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
-      <item itemvalue="Spring Boot.Eureka1Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.TT2.test" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Docker.study-eureka1/Dockerfile" />
-        <item itemvalue="Spring Boot.Eureka1Application" />
-        <item itemvalue="JUnit.MqSenderTest.send3" />
-        <item itemvalue="JUnit.MqSenderTest.send2" />
-        <item itemvalue="JUnit.MqSenderTest.send1" />
       </list>
     </recent_temporary>
   </component>
@@ -365,6 +364,21 @@
       <workItem from="1583133582314" duration="2182000" />
       <workItem from="1583211109805" duration="9000" />
       <workItem from="1586334958232" duration="5244000" />
+      <workItem from="1586396263398" duration="1417000" />
+      <workItem from="1586402156028" duration="5826000" />
+      <workItem from="1586489430892" duration="1813000" />
+      <workItem from="1586762088364" duration="1374000" />
+      <workItem from="1586765830334" duration="1851000" />
+      <workItem from="1586834563401" duration="1926000" />
+      <workItem from="1586847596884" duration="633000" />
+      <workItem from="1586952549228" duration="4000" />
+      <workItem from="1586958444809" duration="889000" />
+      <workItem from="1587022556719" duration="2614000" />
+      <workItem from="1587093406153" duration="3205000" />
+      <workItem from="1587132089866" duration="503000" />
+      <workItem from="1587182149071" duration="5625000" />
+      <workItem from="1587272352331" duration="5229000" />
+      <workItem from="1587468868011" duration="1312000" />
     </task>
     <task id="LOCAL-00001" summary="升级fastjson">
       <created>1579178402101</created>
@@ -481,10 +495,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#New_Docker_Connection/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1578889068029" />
-    <state x="552" y="179" key="#Project_Structure" timestamp="1579142325175">
+    <state x="442" y="142" key="#Notifications" timestamp="1587272494140">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="552" y="179" key="#Notifications/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586398671182" />
+    <state x="442" y="142" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1587272494140" />
+    <state x="552" y="179" key="#Project_Structure" timestamp="1586402265160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="179" key="#Project_Structure/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579142325175" />
+    <state x="552" y="179" key="#Project_Structure/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586402265160" />
     <state x="552" y="179" key="#SQL_Dialects" timestamp="1579004020308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -497,11 +516,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="688" y="323" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579228887755" />
-    <state x="612" y="182" key="#com.intellij.ide.util.MemberChooser" timestamp="1582796368063">
+    <state x="612" y="182" key="#com.intellij.ide.util.MemberChooser" timestamp="1587022682549">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579233419002" />
-    <state x="612" y="182" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582796368063" />
+    <state x="612" y="182" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587022682549" />
     <state x="464" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1582279567832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -523,10 +542,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="222" key="#xdebugger.evaluate/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579058245696" />
-    <state x="474" y="110" key="CommitChangelistDialog2" timestamp="1586334963396">
+    <state x="474" y="110" key="CommitChangelistDialog2" timestamp="1586340428461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="474" y="110" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586334963396" />
+    <state x="474" y="110" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586340428461" />
     <state x="0" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583139682492" />
     <state width="447" height="466" key="DebuggerActiveHint" timestamp="1579057884348">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -536,46 +555,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582880837983" />
-    <state width="1221" height="306" key="GridCell.Tab.0.bottom" timestamp="1582279177679">
+    <state width="1493" height="116" key="GridCell.Tab.0.bottom" timestamp="1587360190510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1602" height="412" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579235932010" />
-    <state width="1221" height="306" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582279177679" />
-    <state width="1221" height="306" key="GridCell.Tab.0.center" timestamp="1582279177679">
+    <state width="1877" height="396" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586401444559" />
+    <state width="1493" height="116" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587360190510" />
+    <state width="1493" height="116" key="GridCell.Tab.0.center" timestamp="1587360190510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1602" height="412" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579235932010" />
-    <state width="1221" height="306" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582279177679" />
-    <state width="1221" height="306" key="GridCell.Tab.0.left" timestamp="1582279177679">
+    <state width="1877" height="396" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586401444559" />
+    <state width="1493" height="116" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587360190510" />
+    <state width="1493" height="116" key="GridCell.Tab.0.left" timestamp="1587360190510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1602" height="412" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579235932010" />
-    <state width="1221" height="306" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582279177679" />
-    <state width="1221" height="306" key="GridCell.Tab.0.right" timestamp="1582279177679">
+    <state width="1877" height="396" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586401444559" />
+    <state width="1493" height="116" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587360190510" />
+    <state width="1493" height="116" key="GridCell.Tab.0.right" timestamp="1587360190510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1602" height="412" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579235932010" />
-    <state width="1221" height="306" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582279177679" />
-    <state width="1221" height="306" key="GridCell.Tab.1.bottom" timestamp="1582279177679">
+    <state width="1877" height="396" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586401444559" />
+    <state width="1493" height="116" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587360190510" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1587360190507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1602" height="412" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579235932010" />
-    <state width="1221" height="306" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582279177679" />
-    <state width="1221" height="306" key="GridCell.Tab.1.center" timestamp="1582279177679">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587360190507" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1587360190507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1602" height="412" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579235932010" />
-    <state width="1221" height="306" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582279177679" />
-    <state width="1221" height="306" key="GridCell.Tab.1.left" timestamp="1582279177679">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587360190507" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1587360190507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1602" height="412" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579235932010" />
-    <state width="1221" height="306" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582279177679" />
-    <state width="1221" height="306" key="GridCell.Tab.1.right" timestamp="1582279177679">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587360190507" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1587360190507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1602" height="412" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579235932010" />
-    <state width="1221" height="306" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582279177679" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587360190507" />
     <state width="1224" height="236" key="GridCell.Tab.2.bottom" timestamp="1582271438880">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -600,16 +619,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579143231894" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1583139702041">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586340433077">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579231452128" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586340433077" />
     <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583139702041" />
-    <state x="512" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1583211110204">
+    <state x="512" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1587272353511">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579223820322" />
-    <state x="512" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583211110204" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586396263167" />
+    <state x="512" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587272353511" />
     <state x="711" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579233410797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -627,11 +646,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579146519713" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1582796246677">
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1587352802954">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579224090842" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582796246677" />
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587352802954" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
