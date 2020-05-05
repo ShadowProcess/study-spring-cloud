@@ -1,0 +1,59 @@
+spring:
+  application:
+    name: order
+
+  redis:
+    host: localhost
+    port: 6379
+
+  #分布式配置客户端 配置
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: STUDY-CONFIG # 分布式配置-服务名称
+      profile: test
+
+    # 解决Stream一个信息发送出来，多个实例都会接收到的问题
+    stream:
+      bindings:
+        myMessage:
+          group: order
+          content-type: application/json #消息展示的类型
+
+
+# 启动该项目之后，它会去Eureka
+# 找到STUDY-CONFIG这个服务，然后获取到这个服务的IP地址和端口
+# 紧接着它再用这个IP地址和端口，去获取分布式配置
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+  zipkin:
+    base-url: http://localhost:9411/  #你自己搭建的zipkin服务地址
+  sleuth:
+    sampler:
+      percenttage: 1  # 1就是100%
+
+#熔断配置 超时  [熔断器配置]
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 1000
+    getProductInfoList:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000
+feign:
+  hystrix:
+    enabled: true
+
+
+

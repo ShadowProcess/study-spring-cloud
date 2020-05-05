@@ -13,6 +13,7 @@
         <module name="study-eureka-two" />
         <module name="order" />
         <module name="study-eureka-client" />
+        <module name="order1" />
         <module name="study-rabbitmq" />
         <module name="study-elasticsearch" />
         <module name="user" />
@@ -23,6 +24,7 @@
     <bytecodeTargetLevel>
       <module name="eurekaserver" target="1.8" />
       <module name="order" target="1.8" />
+      <module name="order1" target="1.8" />
       <module name="product" target="1.8" />
       <module name="study-config" target="1.8" />
       <module name="study-elasticsearch" target="1.8" />
@@ -40,6 +42,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eurekaserver" options="-parameters" />
       <module name="order" options="-parameters" />
+      <module name="order1" options="-parameters" />
       <module name="product" options="-parameters" />
       <module name="study-config" options="-parameters" />
       <module name="study-elasticsearch" options="-parameters" />
