@@ -1,74 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f36e6cb0-940f-46f4-a47f-e03cd5655299" name="Default Changelist" comment="。。">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_5_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_context_log4j2_5_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_http_5_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpasyncclient_5_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpclient_5_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_jms_5_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_kafka_clients_5_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_kafka_streams_5_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_messaging_5_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_rpc_5_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_servlet_5_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_rabbit_5_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_web_5_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_webmvc_5_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_metrics_micrometer_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_activemq_client_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_amqp_client_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_kafka_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_2_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_core_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_unknown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_zipkin_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/client/ProductClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/config/GirlConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/config/RestTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/controller/EnvController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/controller/FeignController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/controller/GirlController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/controller/HystrixController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/controller/RestTemplateController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/controller/SendMessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/converter/OrderForm2OrderDtoConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/dataobject/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/dataobject/OrderMaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/dataobject/ProductInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/dto/CartDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/dto/OrderDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/enums/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/enums/PayStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/enums/ResultEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/exception/OrderException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/from/OrderFrom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/message/ProductInfoReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/message/rabbitmq/MqReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/message/stream/StreamClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/message/stream/StreamReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/repository/OrderDetailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/repository/OrderMasterRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/utils/KeyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/utils/ResultVoUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/java/com/example/order1/vo/ResultVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/resources/sql/order__master.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/resources/sql/order_detail" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order1/src/main/resources/sql/user_info.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="f36e6cb0-940f-46f4-a47f-e03cd5655299" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/constant/RedisConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-zuul/src/main/java/com/example/zuul/constant/RedisConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -457,7 +392,9 @@
       <workItem from="1588160355706" duration="2121000" />
       <workItem from="1588216635993" duration="9000" />
       <workItem from="1588654116451" duration="239000" />
-      <workItem from="1588659669143" duration="724000" />
+      <workItem from="1588659669143" duration="3535000" />
+      <workItem from="1588935336018" duration="362000" />
+      <workItem from="1588935709363" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="升级fastjson">
       <created>1579178402101</created>
@@ -536,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587470962422</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="增加订单服务">
+      <created>1588660451603</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588660451603</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -571,7 +515,8 @@
     <MESSAGE value="hystrix 熔断单独使用" />
     <MESSAGE value="收尾" />
     <MESSAGE value="。。" />
-    <option name="LAST_COMMIT_MESSAGE" value="。。" />
+    <MESSAGE value="增加订单服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加订单服务" />
   </component>
   <component name="WindowStateProjectService">
     <state x="442" y="142" key="#Notifications" timestamp="1587272494140">
@@ -599,19 +544,20 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="946" y="0" key="#study-eureka1/Dockerfile/0.0.1536.824@0.0.1536.824" timestamp="1582884217166" />
-    <state x="234" y="5" key="CommitChangelistDialog2" timestamp="1588659694848">
+    <state x="234" y="5" key="CommitChangelistDialog2" timestamp="1588660450994">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="474" y="110" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586340428461" />
-    <state x="234" y="5" key="CommitChangelistDialog2/0.0.1536.824/-1024.0.1024.728@0.0.1536.824" timestamp="1588659694848" />
+    <state x="234" y="5" key="CommitChangelistDialog2/0.0.1536.824/-1024.0.1024.728@0.0.1536.824" timestamp="1588660450994" />
     <state x="234" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587470961990" />
     <state x="101" y="73" key="DiffContextDialog" timestamp="1588659693998">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="101" y="73" key="DiffContextDialog/0.0.1536.824/-1024.0.1024.728@0.0.1536.824" timestamp="1588659693998" />
-    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1582880837983">
+    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1588675683344">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824/-1024.0.1024.728@0.0.1536.824" timestamp="1588675683344" />
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582880837983" />
     <state width="1493" height="116" key="GridCell.Tab.0.bottom" timestamp="1587360190510">
       <screen x="0" y="0" width="1536" height="824" />
@@ -665,21 +611,23 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1224" height="236" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1582271438880" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1587470965901">
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1588660455270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586340433077" />
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1024.0.1024.728@0.0.1536.824" timestamp="1588660455270" />
     <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587470965901" />
-    <state x="512" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1588216636298">
+    <state x="512" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1588935749446">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586396263167" />
     <state x="512" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1024.0.1024.728@0.0.1536.824" timestamp="1588216636298" />
+    <state x="512" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1588935749446" />
     <state x="512" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587894336240" />
-    <state x="292" y="94" key="new project wizard" timestamp="1588659950374">
+    <state x="214" y="98" key="new project wizard" timestamp="1588675698612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="292" y="94" key="new project wizard/0.0.1536.824/-1024.0.1024.728@0.0.1536.824" timestamp="1588659950374" />
+    <state x="214" y="98" key="new project wizard/0.0.1536.824/-1024.0.1024.728@0.0.1536.824" timestamp="1588675698612" />
     <state x="231" y="102" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1582266899643" />
     <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1588161383166">
       <screen x="0" y="0" width="1536" height="824" />

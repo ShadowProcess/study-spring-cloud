@@ -109,8 +109,9 @@
         <!--服务之间调用过程的日志打印-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-sleuth</artifactId>
+            <artifactId>spring-cloud-starter-sleuth</artifactId>
         </dependency>
+
         <!--链路追踪-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
